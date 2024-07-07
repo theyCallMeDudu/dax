@@ -1,0 +1,36 @@
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px 5px 10px;
+  background-color: #1b1c1e;
+}
+
+.menu-logo > a > img {
+  width: 200px;
+}
+
+.menu-options {
+  display: flex;
+  align-items: end;
+}
+
+.menu-options > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-options > ul > li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.menu-options > ul > li > a {
+  color: #255b7d;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.menu-options > ul > li > a:hover {
+  color: #c59435;
+}
+

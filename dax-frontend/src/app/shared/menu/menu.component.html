@@ -4,7 +4,10 @@
       <img src="../../../assets/images/dax-logo.svg">
     </a>
   </div>
-  <div class="menu-options">
+  <div class="menu-toggle" (click)="toggleMenu()">
+    &#9776;
+  </div>
+  <div class="menu-options" [class.show]="isMenuOpen">
     <ul>
       <li><a href="">Início</a></li>
       <li><a href="">Quem somos</a></li>

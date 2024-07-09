@@ -1,0 +1,9 @@
+<div>
+  <div *ngFor="let section of sections">
+    <app-section
+      [id]="section.id"
+      [sectionTitle]="section.title"
+      [sectionDescription]="section.description"
+    ></app-section>
+  </div>
+</div>

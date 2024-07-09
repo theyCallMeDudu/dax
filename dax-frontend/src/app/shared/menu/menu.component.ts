@@ -5,11 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.css']
 })
-export class MenuComponent implements OnInit {
-
+export class MenuComponent {
+  isMenuOpen:boolean = false;
   constructor() { }
 
-  ngOnInit(): void {
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
   }
 
 }

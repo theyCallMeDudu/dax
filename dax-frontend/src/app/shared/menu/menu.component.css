@@ -1,12 +1,15 @@
 .menu-container {
   display: flex;
   justify-content: space-between;
-  padding: 5px 10px 5px 10px;
+  align-items: center;
+  padding: 5px 10px;
   background-color: #1b1c1e;
+  position: relative;
 }
 
 .menu-logo > a > img {
-  width: 200px;
+  width: 100%; /* O logotipo ocupa a maior parte da tela */
+  max-width: 200px; /* Limite máximo para o logotipo */
 }
 
 .menu-options {
@@ -34,3 +37,42 @@
   color: #c59435;
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #255b7d;
+}
+
+/* Estilos para telas pequenas */
+@media (max-width: 768px) {
+  .menu-logo {
+    flex: 1;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    color: #255b7d;
+  }
+
+  .menu-options {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-options.show {
+    display: block;
+  }
+
+  .menu-options > ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .menu-options > ul > li {
+    margin: 10px 0;
+  }
+}

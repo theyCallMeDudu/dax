@@ -1,0 +1,30 @@
+.card {
+  width: 350px;
+  height: 280px;
+  background-color: #303133;
+}
+
+.card__body {
+  padding: 5px
+}
+
+.card__body > .card__image{
+  display: flex;
+  justify-content: center;
+}
+
+.card__image > img {
+  width: 330px;
+  height: 110px;
+  border-radius: 5px;
+}
+
+.card__title > h4 {
+  color: #c59435;
+}
+
+.card__text {
+  color: lightgray;
+  font-size: 13px;
+}
+

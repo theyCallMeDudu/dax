@@ -7,13 +7,17 @@ import { IndexModule } from './pages/index/index.module';
 import { MenuComponent } from './shared/menu/menu.component';
 import { SectionComponent } from './shared/section/section.component';
 import { HomeComponent } from './pages/home/home.component';
+import { BigCardComponent } from './shared/big-card/big-card.component';
+import { SmallCardComponent } from './shared/small-card/small-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     SectionComponent,
-    HomeComponent
+    HomeComponent,
+    BigCardComponent,
+    SmallCardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+.card {
+  background-color: #1b1c1e;
+  border: 1px solid greenyellow;
+  color: lightgray;
+}
+
+.card__title > h1 {
+  color: #c59435;
+}
+
+.card__text {
+  width: 50%;
+}

@@ -6,3 +6,10 @@
 .section-container {
   padding: 5px 10px 5px 10px;
 }
+
+.products-container {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}

@@ -1,6 +1,6 @@
 .card {
   width: 350px;
-  height: 280px;
+  height: 320px;
   background-color: #303133;
 }
 
@@ -26,5 +26,7 @@
 .card__text {
   color: lightgray;
   font-size: 13px;
+  max-height: 160px;
+  overflow-y: scroll;
 }
 

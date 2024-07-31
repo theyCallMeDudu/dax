@@ -13,3 +13,28 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 }
+
+.card__list > p {
+  color: lightgray;
+}
+
+.card__list > ul > li {
+  color: lightgray;
+}
+
+.card__dax__service__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card__dax__service__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__dax__service__content > span {
+  color: white;
+  font-weight: 600;
+}
